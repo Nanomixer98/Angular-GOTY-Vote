@@ -4,6 +4,8 @@ import { RouterModule } from '@angular/router';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { GraficoBarrasComponent } from './grafico-barras/grafico-barras.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { GraficoBarrasComponent } from './grafico-barras/grafico-barras.componen
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    BrowserAnimationsModule,
+    NgxChartsModule
   ]
 })
 export class ComponentsModule { }

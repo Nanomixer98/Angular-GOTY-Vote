@@ -1,0 +1,8 @@
+@media (max-width: 480px) {
+    .navbar-brand {
+        margin-right: 0px;
+    }
+    .navbar-toggler {
+        padding: 0px;
+    }
+}
